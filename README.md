@@ -9,7 +9,7 @@ npx create-react-app <folder-name>
 ## Step 2)
 ### inside the react app folder just created, install the following two packages:
 ```bash
-yarn add run-p
+yarn add npm-run-all
 ```
 ```bash
 yarn add netlify-lambda
