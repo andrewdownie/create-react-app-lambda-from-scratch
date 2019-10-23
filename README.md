@@ -4,7 +4,7 @@ WARNING this tutorial is using yarn. Big oof.
 ## Step 1)
 ### Create a react app
 ```bash
-npx create-react-app <folder-name>
+npx create-react-app <app-name>
 ```
 ## Step 2)
 ### inside the react app folder just created, install the following two packages:
@@ -39,17 +39,17 @@ yarn add netlify-lambda
 exports.handler = (event, context, callback) => {
     callback(null, {
         statusCode: 200,
-        body: 'this is text.js'
+        body: 'this is test.js'
     });
 }
 ```
 ## Step 6)
 ### test your app by running the netlify dev command
-### you will need to install netlify-dev globally for this to work:
+### you will need to install netlify-cli globally for this to work:
 ``` bash
 ntl dev -p 9000
 ```
 ### Once your app is running, browse to ```localhost:9000``` to see your front end
-### Browse to ```localhost:9000/.netlify/functions/test``` to see you backend
+### Browse to ```localhost:9000/.netlify/functions/test``` to see your backend
 ## Step 7)
 ### If step 6 worked, theoretically, if you commit your code, push to git, and then deploy to netlify, you would have a serverless full stack project running on the web.
