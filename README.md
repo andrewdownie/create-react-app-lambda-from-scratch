@@ -53,3 +53,7 @@ ntl dev -p 9000
 ### Browse to ```localhost:9000/.netlify/functions/test``` to see your backend
 ## Step 7)
 ### If step 6 worked, theoretically, if you commit your code, push to git, and then deploy to netlify, you would have a serverless full stack project running on the web.
+
+## Follow up tutorials
+### The Netlify Identity From Scratch uses this repo as a starting point:
+https://github.com/andrewdownie/netlify-identity-from-scratch
