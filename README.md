@@ -28,8 +28,8 @@ yarn add netlify-lambda
 "scripts": {
     "start": "react-scripts start",
     "build": "run-p build:**",
-    "build-app": "react-scripts build",
-    "build-lambda": "netlify-lambda build src/lambda"
+    "build:app": "react-scripts build",
+    "build:lambda": "netlify-lambda build src/lambda"
 }
 ```
 ## Step 5)
